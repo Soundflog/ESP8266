@@ -18,9 +18,9 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char *ssid = "Martin";
-const char *password = "87651234";
-const char *serverUrl = "147.45.103.103"; // Замените на адрес вашего сервера
+const char *ssid = "ssID";
+const char *password = "password";
+const char *serverUrl = "http || ip"; // Замените на адрес вашего сервера
 
 void setup() {
   Serial.begin(115200);
